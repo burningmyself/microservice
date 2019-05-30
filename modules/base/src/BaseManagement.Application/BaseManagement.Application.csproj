@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="0.17.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaseManagement.Application.Contracts\BaseManagement.Application.Contracts.csproj" />
+    <ProjectReference Include="..\BaseManagement.Domain\BaseManagement.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

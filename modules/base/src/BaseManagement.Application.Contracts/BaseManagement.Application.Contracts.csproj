@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="BaseManagement\Localization\ApplicationContracts\*.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="BaseManagement\Localization\ApplicationContracts\*.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="0.17.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaseManagement.Domain.Shared\BaseManagement.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="OrganizationService\OrganizationAppService.cs~RF987f536.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="0.17.0" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="0.17.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrganizationService.Application.Contracts\OrganizationService.Application.Contracts.csproj" />
+    <ProjectReference Include="..\OrganizationService.Domain\OrganizationService.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

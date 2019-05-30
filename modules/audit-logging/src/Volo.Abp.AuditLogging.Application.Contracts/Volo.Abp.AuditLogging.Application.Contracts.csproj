@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Volo.Abp.AuditLogging.Application.Contracts</RootNamespace>
+    <AssemblyName>Volo.Abp.AuditLogging.Application.Contracts</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Volo\Abp\AuditLogging\Localization\ApplicationContracts\en.json" />
+    <None Remove="Volo\Abp\AuditLogging\Localization\ApplicationContracts\zh-Hans.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Volo\Abp\AuditLogging\Localization\ApplicationContracts\en.json" />
+    <EmbeddedResource Include="Volo\Abp\AuditLogging\Localization\ApplicationContracts\zh-Hans.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="0.17.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    
+    <ProjectReference Include="..\Volo.Abp.AuditLogging.Domain.Shared\Volo.Abp.AuditLogging.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

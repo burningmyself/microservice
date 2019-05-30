@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bank.Domain.Shared\Bank.Domain.Shared.csproj" />
+    <PackageReference Include="Volo.Abp.Ddd.Domain" Version="0.17.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="MyCompanyName\Bank\Localization\Domain\*.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="MyCompanyName\Bank\Localization\Domain\*.json" />
+  </ItemGroup>
+
+</Project>

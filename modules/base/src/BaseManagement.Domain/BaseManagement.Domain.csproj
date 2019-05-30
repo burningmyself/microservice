@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="BaseManagement\Localization\Domain\*.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="BaseManagement\Localization\Domain\*.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Domain" Version="0.17.0" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="0.17.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaseManagement.Domain.Shared\BaseManagement.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
