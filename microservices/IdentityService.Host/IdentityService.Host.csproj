@@ -24,7 +24,6 @@
     <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="2.7.0" />
     <PackageReference Include="Microsoft.Extensions.Caching.Redis" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="2.2.0" />
-    <PackageReference Include="Volo.Abp.AuditLogging.Domain.Shared" Version="0.17.0" />
     <PackageReference Include="Volo.Abp.AuditLogging.EntityFrameworkCore" Version="0.17.0" />
     <PackageReference Include="Volo.Abp.Autofac" Version="0.17.0" />
     <PackageReference Include="Volo.Abp.Core" Version="0.17.0" />
