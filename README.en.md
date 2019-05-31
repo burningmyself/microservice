@@ -31,5 +31,5 @@ Software architecture description
 #### donate
 
 If you think this writing will help you, you can encourage the author by buying him a glass of juice
-![pay](docs/img/pay.png)
+![pay](http://burningmyself.github.io/docs/img/pay.png)
 [Paypal Me](https://paypal.me/yangfubing)
