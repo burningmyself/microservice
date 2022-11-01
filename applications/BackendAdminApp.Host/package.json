@@ -3,6 +3,6 @@
   "name": "ms-backend-admin-app-host",
   "private": true,
   "dependencies": {
-    "@abp/aspnetcore.mvc.ui.theme.basic": "^0.4.9"
+    "@abp/aspnetcore.mvc.ui.theme.basic": "^6.0.1"
   }
 }
